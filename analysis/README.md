@@ -2,7 +2,7 @@
 
 Jupyter notebooks for data post-processing
 
-1. "basin_timeseries.ipynb": annual rate of change of $C^*$ ($\Delta C^*$) integrated over each of the 45 ocean regions
+1. "basin_timeseries.ipynb": annual rate of change of $C^*   (\Delta C^*)$ integrated over each of the 45 ocean regions
 
 - output figures: "../figures/regions_timeseries.png"
 
