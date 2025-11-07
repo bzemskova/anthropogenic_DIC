@@ -8,6 +8,12 @@ Jupyter notebooks for data post-processing
 
 - output data files: "../processed_data/regional_dCstar_timeseries.h5"
 
+2. "eof_analysis.ipynb": EOF analysis of the interannual variability of vertically integrated $\Delta C^*$
+
+- output figures: "../figures/eof_analysis.png"
+
+- output data files: "../processed_data/eof_6modes.h5"   
+
 2. "separate_ocean_regions.ipynb": separate each grid cell into 45 ocean regions and calculate area/volume of each grid cell
 
 - output figures: none
