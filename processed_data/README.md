@@ -20,17 +20,23 @@ The description of variables within each file is below. Dimensions of each array
 
 "climate_indices.npz": monthly timeseries (1995-2022) of three climate indices
 
+&emsp; &emsp;  "amo": Atlantic Multidecadal Oscillation index from https://psl.noaa.gov/data/timeseries/AMO/
+
+&emsp; &emsp; "atl3": ATL3 index for Atlantic Niño from https://www.cpc.ncep.noaa.gov/products/international/ocean_monitoring/IODMI/ATL3_month.html
+
 &emsp; &emsp; "enso": MEI index for ENSO from https://www.psl.noaa.gov/enso/mei/
 
 &emsp; &emsp; "emi": EMI index for El Niño Modoki from https://www.jamstec.go.jp/aplinfo/sintexf/e/elnmodoki/data.html
 
-&emsp; &emsp; "atl3": ATL3 index for Atlantic Niño from https://www.cpc.ncep.noaa.gov/products/international/ocean_monitoring/IODMI/ATL3_month.html
+&emsp; &emsp; "npgo": North Pacific Gyre Oscillation index from https://psl.noaa.gov/data/timeseries/month/DS/NPGO/
+
+&emsp; &emsp; "pdo": Pacific Decadal Oscillation index from https://www.ncei.noaa.gov/access/monitoring/pdo/
 
 "eof_6modes.h5":
 
 &emsp; &emsp; "EOF components": spatial structure of the top 6 EOF modes for $\Delta C^*$ variability [$`6\times180\times360`$]
 
-&emsp; &emsp; "PC timeseries": Principal Component (PC) timeseries for the top 6 EOF modes (1996-2022) [$`6\times 27`$]
+&emsp; &emsp; "PC timeseries": Principal Component (PC) timeseries for the top 6 EOF modes (monthly 1995-2022) [$`6\times 335`$]
 
 "global_Cstar_timeseries.h5":
 
