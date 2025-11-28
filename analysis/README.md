@@ -8,9 +8,9 @@ Jupyter notebooks for data post-processing
 
 - output data files: "../processed_data/regional_dCstar_timeseries.h5"
 
-2. "eof_analysis.ipynb": EOF analysis of the interannual variability of vertically integrated $\Delta C^*$
+2. "monthly_eof_analysis.ipynb": EOF analysis of the interannual variability of vertically integrated $\Delta C^*$
 
-- output figures: "../figures/eof_analysis.png"
+- output figures: "../figures/eof_analysis_monthly.png"
 
 - output data files: "../processed_data/eof_6modes.h5"   
 
